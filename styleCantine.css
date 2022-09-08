@@ -2,8 +2,8 @@
 
 *{
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    box-sizing: content-box;
 }
 
 body{
@@ -159,10 +159,10 @@ section{
 }
 
 section .container{
-    padding: 3rem;
+    padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    grid-template-columns: repeat(2, 5fr);
+    align-items: flex-start;
     justify-content: center;
     min-height: 100vh;
 }
@@ -172,7 +172,7 @@ section img{
 }
 
 section .container > *{
-    margin: 2rem;
+    margin: 0.5rem;
 }
 
 .content{
@@ -182,14 +182,6 @@ section .container > *{
 
 .imgContainer{
     transform: translateY(100px);
-}
-
-.text{
-  text-decoration: none;
-}
-
-.text span{
-  text-decoration: none;
 }
 
 .title{
@@ -227,8 +219,6 @@ button{
   border: 0cm;
   background-color: transparent;
 }
-
-
 
 .sidenav {
   height: 100%;
